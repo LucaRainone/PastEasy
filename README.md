@@ -1,6 +1,6 @@
 ##What it does?
 
-Simply implements the paste image feature crom ClipBoard on some Google services (hangouts, doc, g+).
+Simply implements the paste image feature from ClipBoard on some Google services (hangouts, doc, g+).
 The package could be found [here](https://chrome.google.com/webstore/detail/pasteasy/mfpmnkpibkajokfpbeljneedcafjphka)
 
 ##How?
