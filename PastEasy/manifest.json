@@ -1,0 +1,27 @@
+{
+  "default_locale":"it",
+  "name": "PastEasy",
+  "description": "__MSG_appDesc__",
+  "manifest_version": 2,
+  "permissions": [
+    "https://*.google.com/*","clipboardRead"
+  ],
+  "version": "0.1",
+  "icons": { "128": "images/128.jpg", "64":"images/64.jpg", "48":"images/48.jpg" },
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/picker*"],
+      "js": ["scripts.js"],
+      "all_frames": true
+    },
+    {
+      "matches": ["https://talkgadget.google.com/*"],
+      "js": ["talkgadget.js"],
+      "all_frames": true
+    }
+
+  ],
+  "web_accessible_resources": [
+    "images/logosmall.jpg"
+  ]
+}
