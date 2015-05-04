@@ -6,7 +6,7 @@
   "permissions": [
     "https://*.google.com/*","clipboardRead"
   ],
-  "version": "0.1",
+  "version": "0.1.1",
   "icons": { "128": "images/128.jpg", "64":"images/64.jpg", "48":"images/48.jpg" },
   "content_scripts": [
     {
