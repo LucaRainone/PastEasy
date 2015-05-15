@@ -1,5 +1,5 @@
 var config = {
-    dragContainer: '.Yf-en-Dn.Yf-en-Hn'
+    dragContainer: '.Zf-fn-En.Zf-fn-In'
 };
 
 
